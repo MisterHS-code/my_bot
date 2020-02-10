@@ -3,8 +3,8 @@ from datetime import datetime, timedelta
 from time import sleep
 
 min_t = timedelta(minutes = 15)
-bill = 'https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/ce2ece60-9b32-11e6-95ab-00163ed833e7/260663710/the-test-fun-for-friends-screenshot.jpg'
-target = "@DisImma"
+bill = 'https://ii.mypivots.com/banknotes/brl-20-brazilian-reals-2.jpg'
+target = "@user"
 
 
 CONSUMER_KEY = ""
