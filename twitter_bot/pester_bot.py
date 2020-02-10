@@ -43,32 +43,3 @@ while True:
                 if tweet_delta < min_t: #5
                     tweet_image(bill, target, tweet.id) #6
     sleep(900)  #7
-                
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''for tweet in seen_tweets:
-    tweet_id = tweet.id
-    now = datetime.now()
-    time = tweet.created_at
-    if tweet.in_reply_to_status_id == None:
-        print(time-now)
-        print("")
-        print(time)
-        if abs(time-now) < min_t:
-            print(tweet_id)'''
-        
-#    try:
-#        print(tweet.retweeted_status)
-#    except:
-#        print(tweet.created_at)
